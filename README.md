@@ -23,11 +23,11 @@ A YOLOv9-based traffic density and helmet compliance detection system. It can pr
 
 Confusion Matrix : shows the number of correct and incorrect predictions for each class.
 
-![Bar Plot](dataset.png)
+![Bar Plot](confusion_matrix.png)
 
 F1-Confidence Curve: This graph shows the relationship between the F1-score value and the confidence threshold used by the model.
 
-![Bar Plot](dataset.png)
+![Bar Plot](F1_curve.png)
 
 ## 📂 Project Setup
 ### 1. Download the YOLO configuration file (config.yaml) for the dataset and model. 
@@ -53,6 +53,23 @@ python App.py
 - For Real-time input use cap = cv2.VideoCapture(0) 
 - Output : Processed video saved as output_video.mp4
 - Visualization : Displays the tracking results with bounding boxes and counts
+
+### 📊 Detection results
+- Real time detection results of helmet
+  
+![Bar Plot](confusion_matrix.png)
+
+- Real time detection results of non helmet use
+  
+![Bar Plot](confusion_matrix.png)
+
+- Vehicle detection results using static video
+  
+![Bar Plot](confusion_matrix.png)
+
+- Vehicle detection results using real-time captured
+  
+![Bar Plot](confusion_matrix.png)
 
 ### 🚩Contributions
 I would appreciate contributions to improve the model, add or enhance features, and optimize the deployment process. For any queries, reach out to me at joni150703@gmail.com
