@@ -30,7 +30,8 @@ A YOLOv9-based traffic density and helmet compliance detection system. It can pr
 ![Bar Plot](F1_curve.png)
 
 ## 📂 Project Setup
-### 1. Download the YOLO configuration file (config.yaml) for the dataset and model. 
+### 1. Config
+Download the YOLO configuration file (config.yaml) for the dataset and model. 
 ### 2. Clone Repository
 ```bash
 git clone https://github.com/404-mind72/Vehicle-Density-and-Helmet-Detection-System-YOLOv9.git
