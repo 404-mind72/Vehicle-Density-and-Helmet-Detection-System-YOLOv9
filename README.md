@@ -67,9 +67,9 @@ python App.py
   
 ![Bar Plot](confusion_matrix.png)
 
-- Vehicle detection results using real-time captured
+- Vehicle detection results using real-time captured in Tarakan City
   
-![Bar Plot](confusion_matrix.png)
+![Bar Plot](realtime_captured.png)
 
 ### 🚩Contributions
 I would appreciate contributions to improve the model, add or enhance features, and optimize the deployment process. For any queries, reach out to me at joni150703@gmail.com
