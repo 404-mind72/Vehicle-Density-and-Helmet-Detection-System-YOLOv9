@@ -12,11 +12,11 @@ A YOLOv9-based traffic density and helmet compliance detection system. It can pr
 - Python as the primary programming language
 
 ## 🚀 Key Features
-- Realtime Detection: Supports input from webcams/CCTV cameras.
-- Video Processing: Can process static video files.
-- Vehicle Counting: Counts the number of vehicles based on their class.
-- Helmet Detection: Distinguishes between helmeted and unhelmeted drivers.
-- Alert System: Beeps when a helmetless driver is detected.
+- Realtime Detection : Supports input from webcams/CCTV cameras.
+- Video Processing : Can process static video files.
+- Vehicle Counting : Counts the number of vehicles based on their class.
+- Helmet Detection : Distinguishes between helmeted and unhelmeted drivers.
+- Alert System : Beeps when a helmetless driver is detected.
 - Output Recording: Automatically saves detected video.
 
 ### 📈 Train Result
