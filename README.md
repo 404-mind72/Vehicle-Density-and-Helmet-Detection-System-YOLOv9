@@ -37,3 +37,7 @@ https://drive.google.com/drive/folders/18JIvKmaZ_7O-y8F-Jws9VlXPXXVhh9L-?usp=sha
 ```bash
 python App.py
 ```
+### 🎥 Input and Output
+- Input: Video file (video_path = "video/video.mp4")
+- Output: Processed video saved as output_video.mp4
+- Visualization: Displays the tracking results with bounding boxes and counts
