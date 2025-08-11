@@ -57,15 +57,15 @@ python App.py
 ### 📊 Detection results
 - Real time detection results of helmet
   
-![Bar Plot](confusion_matrix.png)
+![Bar Plot](helmet_captured.png)
 
 - Real time detection results of non helmet use
   
-![Bar Plot](confusion_matrix.png)
+![Bar Plot](non_helmet_captured.png)
 
 - Vehicle detection results using static video
   
-![Bar Plot](confusion_matrix.png)
+![Bar Plot](static_captured.png)
 
 - Vehicle detection results using real-time captured in Tarakan City
   
