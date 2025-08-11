@@ -19,6 +19,16 @@ A YOLOv9-based traffic density and helmet compliance detection system. It can pr
 - Alert System: Beeps when a helmetless driver is detected.
 - Output Recording: Automatically saves detected video.
 
+### 📈 Train Result
+
+Confusion Matrix : shows the number of correct and incorrect predictions for each class.
+
+![Bar Plot](dataset.png)
+
+F1-Confidence Curve: This graph shows the relationship between the F1-score value and the confidence threshold used by the model.
+
+![Bar Plot](dataset.png)
+
 ## 📂 Project Setup
 ### 1. Download the YOLO configuration file (config.yaml) for the dataset and model. 
 ### 2. Clone Repository
@@ -30,6 +40,7 @@ git clone https://github.com/404-mind72/Vehicle-Density-and-Helmet-Detection-Sys
 pip install ultralytics opencv-python numpy torch torchvision torchaudio
 ```
 ### 4. Download YoLoV9 Model
+Note : To use the weight model, please contact my email.
 ```bash
 https://drive.google.com/drive/folders/18JIvKmaZ_7O-y8F-Jws9VlXPXXVhh9L-?usp=sharing
 ```
@@ -38,6 +49,10 @@ https://drive.google.com/drive/folders/18JIvKmaZ_7O-y8F-Jws9VlXPXXVhh9L-?usp=sha
 python App.py
 ```
 ### 🎥 Input and Output
-- Input: Video file (video_path = "video/video.mp4")
-- Output: Processed video saved as output_video.mp4
-- Visualization: Displays the tracking results with bounding boxes and counts
+- Input : Video file (video_path = "video/video.mp4")
+- For Real-time input use cap = cv2.VideoCapture(0) 
+- Output : Processed video saved as output_video.mp4
+- Visualization : Displays the tracking results with bounding boxes and counts
+
+### 🚩Contributions
+I would appreciate contributions to improve the model, add or enhance features, and optimize the deployment process. For any queries, reach out to me at joni150703@gmail.com
