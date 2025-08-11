@@ -1,0 +1,14 @@
+path: '/content/drive/MyDrive/Penelitian_Pak_Arif/train'
+train: images/
+val: images/
+
+# classes
+names:
+  0: bus
+  1: mobil
+  2: motor
+  3: pakai_helm
+  4: tidak_pakai_helm
+  5: truck
+
+
