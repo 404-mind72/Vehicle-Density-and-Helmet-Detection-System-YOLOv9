@@ -21,11 +21,11 @@ A YOLOv9-based traffic density and helmet compliance detection system. It can pr
 
 ### 📈 Train Result
 
-Confusion Matrix : shows the number of correct and incorrect predictions for each class.
+- Confusion Matrix : shows the number of correct and incorrect predictions for each class.
 
 ![Bar Plot](confusion_matrix.png)
 
-F1-Confidence Curve: This graph shows the relationship between the F1-score value and the confidence threshold used by the model.
+- F1-Confidence Curve: This graph shows the relationship between the F1-score value and the confidence threshold used by the model.
 
 ![Bar Plot](F1_curve.png)
 
