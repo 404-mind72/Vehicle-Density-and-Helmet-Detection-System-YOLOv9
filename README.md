@@ -19,7 +19,7 @@ A YOLOv9-based traffic density and helmet compliance detection system. It can pr
 - Alert System : Beeps when a helmetless driver is detected.
 - Output Recording: Automatically saves detected video.
 
-### 📈 Train Result
+## 📈 Train Result
 
 - Confusion Matrix : shows the number of correct and incorrect predictions for each class.
 
@@ -49,13 +49,13 @@ https://drive.google.com/drive/folders/18JIvKmaZ_7O-y8F-Jws9VlXPXXVhh9L-?usp=sha
 ```bash
 python App.py
 ```
-### 🎥 Input and Output
+## 🎥 Input and Output
 - Input : Video file (video_path = "video/video.mp4")
 - For Real-time input use cap = cv2.VideoCapture(0) 
 - Output : Processed video saved as output_video.mp4
 - Visualization : Displays the tracking results with bounding boxes and counts
 
-### 📊 Detection results
+## 📊 Detection results
 - Real time detection results of helmet
   
 ![Bar Plot](helmet_captured.png)
